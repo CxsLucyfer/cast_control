@@ -12,3 +12,4 @@ aiopath>=0.6.11; python_version >= '3.11'
 # aiopath==0.6.10; python_version >= '3.10'
 mpris_server>=0.7.0, <=0.8.0
 app_paths>=0.0.7
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
